@@ -1,3 +1,5 @@
+[README.md](https://github.com/user-attachments/files/30625688/README.md)
+
 # 집킴이 (Zipkimi)
 
 **CCTV 영상 속 두 사람의 '상대적 이동 관계'를 분석해 미행 가능성이 있는 구간을 선별하는 시스템**
@@ -83,7 +85,7 @@ pip install -r requirements.txt
 ### 실행
 
 ```bash
-streamlit run app_v5.py
+streamlit run app_v9.py
 ```
 
 브라우저가 자동으로 열립니다. 열리지 않으면 `http://localhost:8501` 로 접속하세요.
@@ -92,7 +94,7 @@ streamlit run app_v5.py
 
 ### 데모 모드
 
-`app_v5.py` 상단의 설정으로 동작이 달라집니다.
+`app_v9.py` 상단의 설정으로 동작이 달라집니다.
 
 ```python
 DEMO_MODE = False   # 실제 YOLO 분석 (기본값)
