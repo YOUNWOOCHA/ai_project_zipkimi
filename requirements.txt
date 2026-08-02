@@ -1,0 +1,4 @@
+streamlit>=1.30
+ultralytics>=8.0
+opencv-python>=4.8
+imageio-ffmpeg>=0.4
